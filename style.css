@@ -1,0 +1,184 @@
+
+    #divLogo{
+        width: 100%;
+        left: 30px;
+        top: 30px;
+        display: flex;
+    }
+    
+    
+    #tabla{
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+        top: 60px;
+        margin: 5px;
+        border: #0A3871;
+        }
+    
+    #celdaizq{
+        flex:auto;
+        display: flex-wrap;
+        width: 75%;
+        vertical-align: middle;
+        text-align: center;
+        }
+    
+    #celdader{
+        flex:auto;
+        display: flex-wrap;
+        width: 25%;
+        vertical-align: middle;
+        }
+    #divBotones{
+        flex:auto;
+        display: flex;
+        vertical-align: middle;
+        }
+  
+    
+    #areaEntrada{
+        width: 95%;
+        height: 300px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+        text-align: center;
+        vertical-align: middle;
+        color: #0A3871;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 15px;
+        border-color: #E5E5E5;
+        resize: none;
+        display: flex;   
+    }
+    
+    #areaSalida{
+        width: 95%;
+        height: 300px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 120%;
+        text-align: center;
+        color: #343A40;
+        background: #FFFFFF;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        border-radius: 15px;
+        border-color: #E5E5E5;
+        resize: none;
+        vertical-align: middle;
+        display: flex;
+    }
+    
+    #btnEncriptar{
+        width: 45%;
+        height: 67px;
+        left: 0px;
+        top: 0px;
+        background: #0A3871;
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 1%;
+    }
+    #btnCopiar{
+        width: 100%;
+        height: 67px;
+        left: 0px;
+        top: 0px;
+        background: #0A3871;
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    #btnDesencriptar{
+        width: 45%;
+        height: 67px;
+        left: 0px;
+        top: 0px;
+        background: #D8DFE8;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #0A3871;
+        margin: 1%;
+    }
+    
+    #divAviso{
+        width: 100%;
+        height: 20px;
+        left: 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #495057;
+        opacity: 0.8;
+        display: flex;
+    
+    }
+
+    #divProgramador{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: greenyellow;
+    }
+/*resolucion para smartphones*/
+    @media(max-width: 412px){
+        
+        #tabla{
+            flex-direction: column;
+        }
+        #celdader{
+            flex:auto;
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+        }
+
+        #celdaizq{
+            flex:auto;
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+        }
+
+        #areaEntrada,#areaSalida{
+            height: 150px; 
+        }
+    }

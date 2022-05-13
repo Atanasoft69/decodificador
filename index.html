@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="esp">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Koulen&display=swap" rel="stylesheet">
+    <title>
+        Encriptador/Desencriptador de Texto
+    </title>
+</head>
+
+<body>
+    <div id="divLogo">
+        <img src="img/logoaula.png">
+    </div>
+    <div id="tabla">
+        <div id="celdaizq">
+            <textarea id="areaEntrada">Ingrese el texto aqui</textarea>
+            <div id="divAviso">
+                <img src="img/exclamacion.png">Solo letras minúsculas y sin acentos
+            </div>
+            <div id="divBotones">
+                <button id="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <div id="celdader">
+            <textarea id="areaSalida" readonly>Ningún mensaje fue encontrado</textarea>
+            <div id="divAviso">
+            </div>
+            <button id="btnCopiar">Copiar</button>
+        </div>
+    </div>
+    <div id="divProgramador">
+        <h3>JONATHAN PACHECO AGUILAR</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
